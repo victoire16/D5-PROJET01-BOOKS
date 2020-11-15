@@ -1,0 +1,55 @@
+header {
+  background: rgb(247, 149, 97);
+  min-height: 15vh;
+  display: flex;
+}
+
+header ul {
+  list-style-type: disc;
+}
+
+header li {
+  display: table-cell;
+  border: 0px solid #3A5D91;
+}
+
+header a {
+  text-decoration: none;
+  color : #ffffff;
+  padding: 60px;
+  display: flex;
+}
+
+
+section a{
+  color: rgb(247, 149, 97);
+  padding: 0.35em;
+  font-size: 0.75em;
+  margin-left: 20px;
+}
+
+
+.content-outer
+{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+min-height: 85vh;
+text-align: justify;
+}
+.content-inner {
+  max-width: 900px;
+
+}
+
+
+h1 {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  text-align: left;
+}
+
+body {
+  background-color: #E2CDC7
+}
